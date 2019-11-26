@@ -1,0 +1,39 @@
+{
+  "_from": "mongotojson",
+  "_id": "mongotojson@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-hwTRb/QSXeumypdVYNc4iBppu+fw0lvg/9rIh/z2dCdtgDnD32FosVT/mD1OWU2N6K48U2hASfWgS3D6dCYhag==",
+  "_location": "/mongotojson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mongotojson",
+    "name": "mongotojson",
+    "escapedName": "mongotojson",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mongotojson/-/mongotojson-1.0.3.tgz",
+  "_shasum": "e6c6387b025f22e10bcc8f66bc077e9fb0fc64f0",
+  "_spec": "mongotojson",
+  "_where": "/home/neel/WebstormProjects/test",
+  "author": {
+    "name": "neelstephen"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Usage ```bash  $ npm install mongotojson --save ``` ```javascript var convert = require('mongotojson'); var options = { \tdatabase: 'product', // required \tcollection: 'users', // required \tfields: ['name','address'], // optional \toutput: './output/users.csv or .json', // required }; convert.export(options, function (err, success) { \tconsole.log(err); \tconsole.log(success); }); ``",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mongotojson",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
